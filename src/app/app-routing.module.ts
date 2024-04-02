@@ -5,6 +5,7 @@ import { UserListComponent } from './user-list/user-list.component';
 import { UserUpdateComponent } from './user-update/user-update.component';
 import { BookListComponent } from './book-list/book-list.component';
 import { BookUpdateComponent } from './book-update/book-update.component';
+import { PlayersListComponent } from './players-list/players-list.component';
 
 const routes: Routes = [
   { path: 'users', component: UserListComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'update-user/:id', component: UserUpdateComponent },
   { path: 'books', component: BookListComponent },
   { path: 'update-book/:id', component: BookUpdateComponent },
+  { path: 'players', component: PlayersListComponent },
 ];
 
 @NgModule({

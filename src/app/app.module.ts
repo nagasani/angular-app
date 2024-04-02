@@ -11,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { BookComponent } from './book/book.component';
 import { BookListComponent } from './book-list/book-list.component';
 import { BookUpdateComponent } from './book-update/book-update.component';
+import { PlayersComponent } from './players/players.component';
+import { PlayersListComponent } from './players-list/players-list.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BookUpdateComponent } from './book-update/book-update.component';
     UserUpdateComponent,
     BookComponent,
     BookListComponent,
-    BookUpdateComponent
+    BookUpdateComponent,
+    PlayersComponent,
+    PlayersListComponent
   ],
   imports: [
     BrowserModule,

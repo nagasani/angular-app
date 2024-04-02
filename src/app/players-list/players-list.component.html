@@ -1,0 +1,21 @@
+<div class="container">
+    <h2 class="text-center">Players with No Sport</h2>
+    <table class="table table-stripped">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Level</th>
+                <th>Age</th>
+                <th>Gender</th>                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let players of playerss">
+                <td> {{ players.email }} </td>
+                <td> {{ players.level }} </td>
+                <td> {{ players.age }} </td>
+                <td> {{ players.gender }} </td>                
+            </tr>
+        </tbody>
+    </table>
+</div>

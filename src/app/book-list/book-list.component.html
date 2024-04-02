@@ -12,7 +12,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr * ="let book of books">
+            <tr *ngFor="let book of books">
                 <td> {{ book.id }} </td>
                 <td> {{ book.title }} </td>
                 <td> {{ book.author.name }} </td>
